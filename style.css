@@ -9,14 +9,3 @@
 	light orange color: #ec9371
 
 ******/
-
-.item {
-	width: 500px;
-	margin: 0 auto;
-}
-.title {
-    display: inline;
-}
-.close {
-    float: right;
-}
