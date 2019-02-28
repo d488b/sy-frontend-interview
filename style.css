@@ -10,13 +10,40 @@
 
 ******/
 
-.item {
+.container {
 	width: 500px;
 	margin: 0 auto;
 }
+.item {
+	border: 1px solid #808080;
+	border-radius: 5px;
+	margin: 15px 0;
+	background-color: #DB4006;
+}
 .title {
-    display: inline;
+	background-color: #DB4006;
+	color: #ffffff;
+	margin: 0;
+	padding: 5px 15px;
+	display: inline-block;
+	width: 87%;
+}
+.description {
+    background-color: #ec9371;
+	margin: 0;
+	padding: 15px;
+    font-size: 17px;
 }
 .close {
-    float: right;
+	font-size: 25px;
+	display: inline-block;
+	background-color: #DB4006;
+	padding: 5px;
+	vertical-align: super;
+}
+button {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
 }
